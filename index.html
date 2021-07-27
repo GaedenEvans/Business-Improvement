@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Improvement</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<section class="homepage">
+		<div class="search">
+			<p class="logo">Improvement</p>
+			<input id="myInput" class="search-input"type="text" placeholder="Search A Company">
+      <ul class="nav">
+        <li class="nav-btn"> <a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-btn"> <a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-btn"> <a class="nav-link" href="aboutme.html">About</a></li>
+        <li class="nav-btn"> <a class="nav-link" href="register.html">Register</a></li>
+        <li class="nav-btn"> <a class="nav-link" href="services.html">Services</a></li>
+      </ul>    
+	</div>
+  </section>
+  <section>
+    <a id="myBtn" href="apple.html"></a>
+  </section>
+  <section>
+    <a id="gain" href="gain.html"></a>
+  </section>
+  <script type="text/javascript">
+    // Execute a function when the user releases a key on the keyboard
+    var input = document.getElementById("myInput");
+    input.addEventListener("keyup", function(event) {
+      // Number 13 is the "Enter" key on the keyboard
+      if (event.keyCode === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        if (input.value == "apple") {
+          document.getElementById("myBtn").click();
+        }
+        
+      }
+    });
+
+    // Execute a function when the user releases a key on the keyboard
+    var input = document.getElementById("myInput");
+    input.addEventListener("keyup", function(event) {
+      // Number 13 is the "Enter" key on the keyboard
+      if (event.keyCode === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        if (input.value == "gladstone investment") {
+          document.getElementById("gain").click();
+        }
+        
+      }
+    });
+</script>
+  </body>
+</html>
