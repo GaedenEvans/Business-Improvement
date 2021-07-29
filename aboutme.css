@@ -1,0 +1,81 @@
+.nav-link{
+  color: black;
+  text-decoration: none; 
+}
+
+
+.header{
+  background-color: rgb(160, 106, 117); 
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-section {
+  display: inline-block;
+} 
+
+ul {
+  padding: 0;
+  margin: 0; 
+} 
+
+.nav-btn {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.logo {
+  font: 45px modern antiqua,molengo;
+  text-align: center;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+
+
+.about-me-text {
+  position: absolute;
+  left: 50%;
+  border: 6px solid black;
+  padding: 1em;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  align-items: center;
+} 
+
+body {
+  background-size: cover;
+  background-image: url('aboutme.jpeg');
+}
+
+p {
+  background-color: rgb(160, 106, 117);
+  font: 25px modern antiqua,molengo;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+h1 {
+  background-color: rgb(160, 106, 117);
+  font: 35px modern antiqua,molengo;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+.nav-link:hover{
+  opacity: 0.5;
+}

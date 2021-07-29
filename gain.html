@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Improvement</title>
+    <link href="gain.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Write code below -->
+    <section class="header">
+      <div class="header-section logo">Improvement</div>
+      <div class="header-section navigation">
+        <ul>
+          <li class="nav-btn"> <a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-btn"> <a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-btn"> <a class="nav-link" href="aboutme.html">About</a></li>
+          <li class="nav-btn"> <a class="nav-link" href="register.html">Register</a></li>
+          <li class="nav-btn"> <a class="nav-link" href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class:"gain-content">
+      <div class:"gain-text">
+        <h1>Stock Info</h1>
+        <iframe frameBorder='0' scrolling='no' width='1000' height='500' src='https://api.stockdio.com/visualization/financial/charts/v1/HistoricalPrices?app-key=14557075CE154866A723F0CED61D31F6&symbol=GAIN&displayPrices=Area&dividends=true&splits=true&palette=Financial-Light'></iframe>
+        <h2>Info On Company</h2>
+        <p>Gladstone investment are a family of investment funds, headquartered in the Washington DC area, that provide financing to and acquire lower middle market companies, acquire commercial real estate and farmland nationwide, and pay monthly dividends to their shareholders. Gladstone investments invest in  mature, lower middle market companies with $20 to $100 million in revenue, attractive fundamentals and strong management teams. Gladstone pays 0.07 per share. Gladstone invests ticker symbol is GAIN. GAIN goal is to generate both current income and capital gains through debt and equity investments in these businesses to provide their shareholders their monthly dividends. I have bought GAIN in an a stock simulator and the stock was very stable and if it was real mmoney invested I would've made money on the time I invested in GAIN. The simulator I had invested in was a real time stock market that was up to date with the share prices and when the stock market opens and closes and one of the stock that made money on the simulator was GAIN.</p>
+      </div>
+    </section>
+     <script>
+   if (typeof(stockdio_events) == "undefined") {
+      stockdio_events = true;
+      var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+      var stockdio_eventer = window[stockdio_eventMethod];
+      var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+      stockdio_eventer(stockdio_messageEvent, function (e) {
+         if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
+            eval(e.data.method);
+         }
+      },false);
+   }
+    </script>
+   </body>
+</html>
